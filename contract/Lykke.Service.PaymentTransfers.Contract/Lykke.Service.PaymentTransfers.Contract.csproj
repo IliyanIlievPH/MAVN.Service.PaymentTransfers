@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Version>1.0.1</Version>
+        <Authors>Lykke</Authors>
+        <Company>Lykke</Company>
+        <Description>Contract for the Lykke.Service.PaymentTransfers</Description>
+        <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.Service.LykkeService/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/LykkeCity/Lykke.Service.LykkeService</PackageProjectUrl>
+        <PackageIconUrl>https://avatars3.githubusercontent.com/u/14153330?v=3&amp;amp;s=200</PackageIconUrl>
+        <RepositoryUrl>https://github.com/LykkeCity/Lykke.Service.LykkeService.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Lykke;LykkeService</PackageTags>
+        <PackageId>Falcon.Service.PaymentTransfers.Contract</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Falcon.Numerics" Version="0.1.1" />
+    </ItemGroup>
+
+</Project>

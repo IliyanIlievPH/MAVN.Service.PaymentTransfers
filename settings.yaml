@@ -1,0 +1,53 @@
+PaymentTransfersService:
+    Db:
+        LogsConnString:
+            settings-key: PaymentTransfersService-LogsConnString
+            types:
+              - AzureTableStorage
+        DataConnString:
+            settings-key: PaymentTransfersService-DataConnString
+    PaymentTransfersAddress:
+        settings-key: PrivateBlockchain-PaymentTransfersContractAddress
+    MasterWalletAddress:
+        settings-key: PaymentTransfersService-MasterWalletAddress
+    TokenCurrencyCode:
+        settings-key: Constant-TokenSymbol
+    RabbitMq:
+        RabbitMqConnectionString:
+            settings-key: WalletManagementRabbitMQ
+            types:
+              - RabbitMq
+    MaxAcceptOrRejectTransactionInPbfRetryCount:
+        settings-key: PaymentTransfersService-MaxAcceptOrRejectTransactionInPbfRetryCount
+    DefaultCurrency:
+        settings-key: Constant-BaseCurrencyCode
+PrivateBlockchainFacadeService:
+    ServiceUrl :
+        settings-key: PrivateBlockchainFacadeServiceUrl
+RealEstateIntegrationService:
+    ServiceUrl :
+        settings-key: RealEstateIntegrationServiceUrl
+EligibilityEngineService:
+    ServiceUrl :
+        settings-key: EligibilityEngineServiceUrl
+CampaignService:
+    ServiceUrl:
+        settings-key: CampaignServiceUrl
+CustomerProfileService:
+    ServiceUrl:
+        settings-key: CustomerProfileServiceUrl
+WalletManagementService:
+    ServiceUrl:
+        settings-key: WalletManagementServiceUrl
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+
