@@ -22,7 +22,7 @@ namespace MAVN.Service.PaymentTransfers.MsSqlRepositories.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Lykke.Service.PaymentTransfers.MsSqlRepositories.PaymentTransferEntity", b =>
+            modelBuilder.Entity("MAVN.Service.PaymentTransfers.MsSqlRepositories.PaymentTransferEntity", b =>
                 {
                     b.Property<string>("TransferId")
                         .ValueGeneratedOnAdd()
